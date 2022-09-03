@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="105bd4f6-ac95-4832-a07a-63e9bcaa5a6c" name="Changes" comment="Cats ArrayList example">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="105bd4f6-ac95-4832-a07a-63e9bcaa5a6c" name="Changes" comment="ArrayList example with Cats pompleted">
       <change beforePath="$PROJECT_DIR$/src/ru/synergy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/synergy/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662103494889</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ArrayList example with Cats pompleted">
+      <created>1662183675127</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662183675127</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +161,7 @@
     <MESSAGE value="Init CollectionLearning" />
     <MESSAGE value="Cats example" />
     <MESSAGE value="Cats ArrayList example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cats ArrayList example" />
+    <MESSAGE value="ArrayList example with Cats pompleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList example with Cats pompleted" />
   </component>
 </project>
