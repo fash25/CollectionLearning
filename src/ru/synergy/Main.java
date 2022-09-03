@@ -44,16 +44,36 @@ public class Main {
 
 
 //            LinkedList
-            String str1 = new String("Hello Worlg");
-            String str2 = new String("Vasya");
-            String str3 = new String("I love Jawa");
+//            String str1 = new String("Hello Worlg");
+//            String str2 = new String("Vasya");
+//            String str3 = new String("I love Jawa");
+//
+//            LinkedList<String> vasyaBio = new LinkedList<>();
+//            vasyaBio.add( str1 );
+//            vasyaBio.add( str2 );
+//            vasyaBio.add( str3 );
+//
+//                    System.out.println(vasyaBio);
 
-            LinkedList<String> vasyaBio = new LinkedList<>();
-            vasyaBio.add( str1 );
-            vasyaBio.add( str2 );
-            vasyaBio.add( str3 );
+                   //Linked List on practice
+        LinkedList<Car> cars = new LinkedList<>();
+        Car ferrari = new Car("Ferrari Monza"  );
+        Car maserati = new Car( "Maserati Sliva" );
+        Car nissan = new Car( "Nissan Skyline" );
 
-                    System.out.println(vasyaBio);
+        cars.addAll( Arrays.asList( ferrari,maserati,nissan ) );
+        System.out.println(cars);
+        cars.addFirst(new Car( "Toyota Corsa" )  );
+        System.out.println(cars);
+        cars.addLast(new Car( "Lada Guga" )  );
+        System.out.println(cars);
+
+        cars.pollFirst();
+        System.out.println(cars);
+
+
+
+
         }
 
 
