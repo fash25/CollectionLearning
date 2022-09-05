@@ -1,10 +1,7 @@
 package ru.synergy;
 
 import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedList;
+import java.util.*;
 
 public class Main {
 
@@ -70,6 +67,28 @@ public class Main {
 
         cars.pollFirst();
         System.out.println(cars);
+
+             //  ArrayList vs LinkedList
+
+        List<Integer> List = new LinkedList<>();
+        for (int i = 0; i < 5000000; i++);
+           long start = System.currentTimeMillis();
+           for (int i = 0; i < 100; i++){
+               //list.add( 2000000, Integer.MAX_VALUE);
+           }
+           System.out.println("Time of work for LinkedList on (millisecond)" +
+                (System.currentTimeMillis()- start));
+
+           List = new ArrayList<>();
+        for (int i = 0; i < 5000000; i++);
+           start = System.currentTimeMillis();
+           for (int i = 0; i < 100; i++){
+               //list.add( 2000000, Integer.MAX_VALUE);
+           }
+           System.out.println("Time of work for ArrayList on (millisecond)" +
+                (System.currentTimeMillis()- start));
+
+
 
 
 
