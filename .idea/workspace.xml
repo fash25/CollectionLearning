@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+    <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="105bd4f6-ac95-4832-a07a-63e9bcaa5a6c" name="Changes" comment=" Added HashSet &amp; TreeSet example">
+    <list default="true" id="105bd4f6-ac95-4832-a07a-63e9bcaa5a6c" name="Changes" comment=" Added HashSet &amp; TreeSet example &amp; unversioned fille">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CollectionLearning/ru/synergy/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CollectionLearning/ru/synergy/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CollectionLearning/ru/synergy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CollectionLearning/ru/synergy/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/synergy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/synergy/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -90,7 +92,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -174,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662365924944</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" Added HashSet &amp; TreeSet example &amp; unversioned fille">
+      <created>1663717660098</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663717660098</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,11 +197,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init CollectionLearning" />
@@ -197,6 +225,7 @@
     <MESSAGE value="Added LinkedList Car example" />
     <MESSAGE value="LinkedList vs ArrayList example" />
     <MESSAGE value=" Added HashSet &amp; TreeSet example" />
-    <option name="LAST_COMMIT_MESSAGE" value=" Added HashSet &amp; TreeSet example" />
+    <MESSAGE value=" Added HashSet &amp; TreeSet example &amp; unversioned fille" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Added HashSet &amp; TreeSet example &amp; unversioned fille" />
   </component>
 </project>
